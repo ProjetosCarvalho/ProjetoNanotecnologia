@@ -11,6 +11,27 @@
 # Learn more about CSS variables at https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties
 --------------------------------------------------------------*/
 /* Fonts */
+button[type="submit"] {
+  padding: 5px;
+  font: bold 0.6em sans-serif;
+  border: 2px solid #333;
+  border-radius: 5px;
+  background: none;
+  cursor: pointer;
+  
+}
+
+button[type="submit"]:after {
+  content: " >>>";
+}
+
+button[type="submit"]:hover,
+button[type="submit"]:focus {
+  outline: none;
+  background: #000;
+  color: #fff;
+}
+
 :root {
   --font-default: "Open Sans", system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   --font-primary: "Montserrat", sans-serif;
@@ -1780,8 +1801,8 @@ section {
 
 .contact .php-email-form .error-message {
   display: none;
-  color: #fff;
-  background: #df1529;
+  color: #000;
+  background: 059652;
   text-align: left;
   padding: 15px;
   font-weight: 600;

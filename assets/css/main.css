@@ -22,7 +22,7 @@ button[type="submit"] {
 }
 
 button[type="submit"]:after {
-  content: " >>>";
+  content: " *";
 }
 
 button[type="submit"]:hover,
@@ -1456,6 +1456,12 @@ section {
   margin: 0 2px;
 }
 
+.team .centralizar {
+  text-align: center;
+  justify-content: center;
+  margin-top: 10px;
+}
+
 /*--------------------------------------------------------------
 # Pricing Section
 --------------------------------------------------------------*/
@@ -1876,6 +1882,10 @@ section {
   background: rgba(0, 131, 116, 0.8);
 }
 
+.contact .text-center {
+  font-size: 1.4em;
+}
+
 @keyframes animate-loading {
   0% {
     transform: rotate(0deg);
@@ -1952,7 +1962,7 @@ section {
 }
 
 .hero .btn-watch-video:hover i {
-  color: #fff;
+  color: #006459;
 }
 
 @media (max-width: 640px) {

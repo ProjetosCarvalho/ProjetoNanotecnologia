@@ -2722,3 +2722,7 @@ section {
 .footer .credits a {
   color: #fff;
 }
+
+.border{
+  border: gray;
+}

@@ -20,10 +20,10 @@
 }
 
 .img-fluid-2{
-  
   max-width: 420px;
   height: 365px;
 }
+
 button[type="submit"] {
   padding: 5px;
   font: bold 0.6em sans-serif;
@@ -2725,4 +2725,9 @@ section {
 
 .border{
   border: gray;
+}
+
+.form{
+  text-align: center;
+  margin-left: 300px;
 }
